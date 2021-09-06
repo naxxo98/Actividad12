@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbarAlwaysDrawHorizontalTrack="true"
+    tools:context=".SegundaActivity">
+
+    <TextView
+        android:id="@+id/respuesta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="0"
+        android:textColor="#CF0000"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/n"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Escribe su primer numero"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/n2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Escribe su segundo numero"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnsuma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="SUMA" />
+
+    <Button
+        android:id="@+id/btnresta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="RESTA" />
+
+    <Button
+        android:id="@+id/btnmult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="MULTIPLICACION" />
+
+    <Button
+        android:id="@+id/btndiv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="DIVISION" />
+</LinearLayout>
